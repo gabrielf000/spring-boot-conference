@@ -7,8 +7,8 @@ import org.springframework.context.annotation.Configuration;
 import javax.sql.DataSource;
 
 // Another way to configure the db connection
-@Configuration
-public class PersistenceConfiguration {
+//@Configuration
+//public class PersistenceConfiguration {
 //    @Bean
 //    public DataSource dataSource(){
 //        DataSourceBuilder builder = DataSourceBuilder.create();
@@ -18,4 +18,4 @@ public class PersistenceConfiguration {
 //        System.out.println("My custom datasource bean has been initialized and set");
 //        return builder.build();
 //    }
-}
+//}
